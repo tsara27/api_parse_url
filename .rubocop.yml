@@ -1,0 +1,46 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - "db/schema.rb"
+    - "db/migrate/*.rb"
+    - "bin/*"
+    - "config/environments/*.rb"
+Metrics/LineLength:
+  Max: 80
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/DocumentationMethod:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/ModuleLength:
+  Exclude:
+    - "**/*_spec.rb"
+    - "spec/support/**/*.rb"
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
+    - "spec/support/**/*.rb"
+    - "config/environments/development.rb"
+Metrics/MethodLength:
+  Exclude:
+    - "app/services/**/*.rb"
+    - "**/*_spec.rb"
+    - "spec/support/**/*.rb"
+    - "config/environments/development.rb"
+Metrics/LineLength:
+  Exclude:
+    - "**/*_spec.rb"
+    - "spec/support/**/*.rb"
+    - "config/environments/development.rb"
+Lint/UselessAssignment:
+  Exclude:
+    - "**/*_spec.rb"
+Style/SymbolArray:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
